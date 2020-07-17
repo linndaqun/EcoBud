@@ -20,7 +20,7 @@ import Modal from "react-modal";
 import styles from "../modal.module.css";
 import { AuthUserContext, withAuthorization} from "../../../services/Session";
 
-import "./toastify.module.css";
+import "./toastify.css";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
