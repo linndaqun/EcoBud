@@ -20,6 +20,7 @@ import CompetePage from "../pages/CompetePage";
 import OfflinePage from "../pages/OfflinePage";
 import ChangePW from "../pages/AccountPage/Settings/changePw";
 import ChangeDorm from "../pages/AccountPage/Settings/changeDorm";
+import DeleteAccount from "../pages/AccountPage/Settings/deleteAccount";
 import * as ROUTES from "../constants/routes";
 import { withAuthentication } from "../services/Session";
 
@@ -32,6 +33,7 @@ const App = () => (
       <Route exact path="/account" component={AccountHeader} />
       <Route exact path="/changedorm" component={Header} />
       <Route exact path="/changepassword" component={Header} />
+      <Route exact path="/deleteaccount" component={Header} />
       <Route component={Header} />
     </Switch>
     <div className="main">
@@ -50,6 +52,7 @@ const App = () => (
       <Route path={ROUTES.OFFLINE} component={OfflinePage} />
       <Route path={ROUTES.CHANGEPW} component={ChangePW} />
       <Route path={ROUTES.CHANGEDORM} component={ChangeDorm} />
+      <Route path={ROUTES.DELETE_ACCOUNT} component={DeleteAccount} />
     </div>
   </Router>
 );
