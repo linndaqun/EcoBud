@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/sustainability/static/css/main.359e18eb.chunk.css",
-    "main.js": "/sustainability/static/js/main.ddab838a.chunk.js",
-    "main.js.map": "/sustainability/static/js/main.ddab838a.chunk.js.map",
+    "main.css": "/sustainability/static/css/main.cb860854.chunk.css",
+    "main.js": "/sustainability/static/js/main.3270b6ab.chunk.js",
+    "main.js.map": "/sustainability/static/js/main.3270b6ab.chunk.js.map",
     "runtime-main.js": "/sustainability/static/js/runtime-main.ff73d8bc.js",
     "runtime-main.js.map": "/sustainability/static/js/runtime-main.ff73d8bc.js.map",
     "static/css/2.d34346ea.chunk.css": "/sustainability/static/css/2.d34346ea.chunk.css",
-    "static/js/2.77b64972.chunk.js": "/sustainability/static/js/2.77b64972.chunk.js",
-    "static/js/2.77b64972.chunk.js.map": "/sustainability/static/js/2.77b64972.chunk.js.map",
+    "static/js/2.1018519b.chunk.js": "/sustainability/static/js/2.1018519b.chunk.js",
+    "static/js/2.1018519b.chunk.js.map": "/sustainability/static/js/2.1018519b.chunk.js.map",
     "index.html": "/sustainability/index.html",
-    "precache-manifest.e944d5fc1b182ac6966589c4b9fa6662.js": "/sustainability/precache-manifest.e944d5fc1b182ac6966589c4b9fa6662.js",
+    "precache-manifest.c2496ad91ce64c8a37d11adccf2546cd.js": "/sustainability/precache-manifest.c2496ad91ce64c8a37d11adccf2546cd.js",
     "service-worker.js": "/sustainability/service-worker.js",
     "static/css/2.d34346ea.chunk.css.map": "/sustainability/static/css/2.d34346ea.chunk.css.map",
-    "static/css/main.359e18eb.chunk.css.map": "/sustainability/static/css/main.359e18eb.chunk.css.map",
-    "static/js/2.77b64972.chunk.js.LICENSE.txt": "/sustainability/static/js/2.77b64972.chunk.js.LICENSE.txt",
+    "static/css/main.cb860854.chunk.css.map": "/sustainability/static/css/main.cb860854.chunk.css.map",
+    "static/js/2.1018519b.chunk.js.LICENSE.txt": "/sustainability/static/js/2.1018519b.chunk.js.LICENSE.txt",
     "static/media/account.svg": "/sustainability/static/media/account.fe34405a.svg",
     "static/media/changedorm.svg": "/sustainability/static/media/changedorm.98ab9297.svg",
     "static/media/delete.svg": "/sustainability/static/media/delete.b21473fc.svg",
@@ -30,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.ff73d8bc.js",
     "static/css/2.d34346ea.chunk.css",
-    "static/js/2.77b64972.chunk.js",
-    "static/css/main.359e18eb.chunk.css",
-    "static/js/main.ddab838a.chunk.js"
+    "static/js/2.1018519b.chunk.js",
+    "static/css/main.cb860854.chunk.css",
+    "static/js/main.3270b6ab.chunk.js"
   ]
 }
