@@ -8,6 +8,10 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
+import InboxIcon from "@material-ui/icons/MoveToInbox";
+import MailIcon from "@material-ui/icons/Mail";
+import DeleteIcon from '@material-ui/icons/Delete';
+// import ChangePW from "../PasswordChange/changePw.js";
 import LockOpenIcon from "@material-ui/icons/LockOpen";
 import SettingsIcon from "@material-ui/icons/Settings";
 import HomeIcon from "@material-ui/icons/Home";
@@ -138,10 +142,26 @@ function SettingsDrawer(props) {
           </ListItemText>
         </ListItem>
 
-        {/* Moving this for now because always get error when signing out */}
-        {/* <ListItem className={classes.settingsSignOut}>
+
+        <ListItem
+        button
+        component={Link}
+        to={ROUTES.DELETE_ACCOUNT}
+        className="link-text"
+      >
+        <ListItemIcon className={classes.listItemIcon}>
+          <DeleteIcon />
+        </ListItemIcon>
+        <ListItemText className={classes.listItemText}>
+          Delete Account
+        </ListItemText>
+      </ListItem>
+
+
+        <ListItem className={classes.settingsSignOut}>
+          {/* <ListItemText> */}
           <SignOutButton />
-        </ListItem> */}
+        </ListItem> 
 
         <ListItem
           button

@@ -19,11 +19,10 @@ import Header, {
   BackArrowHeader,
 } from "../components/Headers";
 import CompetePage from "../pages/CompetePage";
-import MuiOfflinePage from "../pages/OfflinePage/muiOfflinePage";
-import MuiChangePw from "../pages/AccountPage/Settings/muiChangePw";
-import MuiChangeDorm from "../pages/AccountPage/Settings/muiChangeDorm";
+import OfflinePage from "../pages/OfflinePage";
+import ChangePW from "../pages/AccountPage/Settings/changePw";
+import ChangeDorm from "../pages/AccountPage/Settings/changeDorm";
 import DeleteAccount from "../pages/AccountPage/Settings/deleteAccount";
-import AdminPage from "../pages/AdminPage";
 import * as ROUTES from "../constants/routes";
 
 import { withAuthentication } from "../services/Session";
@@ -37,11 +36,9 @@ const AppBase = () => (
       <Route exact path="/compete" component={CompeteHeader} />
       <Route exact path="/info" component={InfoHeader} />
       <Route exact path="/account" component={AccountHeader} />
-      <Route exact path="/deleteaccount" component={BackArrowHeader} />
-      <Route exact path="/signup" component={BackArrowHeader} />
-      <Route exact path="/changedorm" component={BackArrowHeader} />
-      <Route exact path="/changepassword" component={BackArrowHeader} />
-      <Route exact path="/forgetpassword" component={BackArrowHeader} />
+      <Route exact path="/changedorm" component={Header} />
+      <Route exact path="/changepassword" component={Header} />
+      <Route exact path="/deleteaccount" component={Header} />
       <Route component={Header} />
     </Switch>
 
@@ -60,11 +57,10 @@ const AppBase = () => (
       <Route path={ROUTES.ACCOUNT} component={AccountPage} />
       <Route path={ROUTES.INFO} component={InfoPage} />
       <Route path={ROUTES.COMPETE} component={CompetePage} />
-      <Route path={ROUTES.OFFLINE} component={MuiOfflinePage} />
-      <Route path={ROUTES.CHANGEPW} component={MuiChangePw} />
-      <Route path={ROUTES.CHANGEDORM} component={MuiChangeDorm} />
+      <Route path={ROUTES.OFFLINE} component={OfflinePage} />
+      <Route path={ROUTES.CHANGEPW} component={ChangePW} />
+      <Route path={ROUTES.CHANGEDORM} component={ChangeDorm} />
       <Route path={ROUTES.DELETE_ACCOUNT} component={DeleteAccount} />
-      <Route path={ROUTES.ADMIN} component={AdminPage} />
     </div>
   </Router>
 );

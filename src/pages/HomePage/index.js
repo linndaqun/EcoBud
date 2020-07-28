@@ -1,8 +1,11 @@
 import React, { Fragment, useState, useContext } from "react";
 import BadgeModal from "./badgeModal"
 
-import favorite from "../../img/favorite.svg";
-import actionTab from "../../img/actionTab.svg";
+import ActionData from "./HomeTabs/actionData.json";
+import HomeTabs from "./HomeTabs";
+
+import CustomizedDialogs from "./MuiModal.js";
+// import "./toastify.css";
 
 import CountUp from "react-countup";
 import Modal from "react-modal";
